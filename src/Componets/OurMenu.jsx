@@ -1,37 +1,38 @@
 import React from 'react'
+import { img1,img2,img3,img4,img5,imgHero } from '../assets'
 const Data= [ {
     "id": 1,
-     image:"src/assets/burger-frenchfries.png",
+     image:img1,
      title :'Hot Beverages',
      dic :'Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?'
 },
 {
     "id": 2,
-    image:"src/assets/coffee-hero-section.png",
+    image:imgHero,
     title :'Hot Beverages',
      dic :'Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?'
 },
 {
     "id": 3,
-    image:"src/assets/cold-beverages.png",
+    image:img2,
     title :'Hot Beverages',
      dic :'Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?'
 },
 {
     "id": 4,
-    image:"src/assets/special-combo.png",
+    image:img3,
     title :'Hot Beverages',
      dic :'Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?'
 },
 {
     "id": 5,
-    image:"src/assets/desserts.png",
+    image:img4,
     title :'Hot Beverages',
      dic :'Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?'
 },
 {
     "id":6,
-    image:"/src/assets/refreshment.png",
+    image:img5,
     title :'Hot Beverages',
      dic :'Esse, numquam laudantium. Exercitationem molestias ipsum aut libero ipsam eos deleniti pariatur quia, eius sapiente minima voluptatibus laborum debitis qui?'
 },
