@@ -1,4 +1,5 @@
 import React from 'react'
+import { imgHero } from '../assets'
 
 const BestCoffee = () => {
   return (
@@ -18,7 +19,7 @@ const BestCoffee = () => {
             </div>
             
             <div >
-                <img src="\src\assets\coffee-hero-section.png " alt="" className=' relative  w-[800px] h-[600px] top-[-50px]'/>
+                <img src={imgHero} alt="" className=' relative  w-[800px] h-[600px] top-[-50px]'/>
             </div>
           
 

@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { TiThMenu } from "react-icons/ti";
 import { IoMdCloseCircle } from "react-icons/io";
+import { logo } from "../assets"; 
 
 
 const NavBar = ({Linkes}) => {
@@ -11,7 +12,7 @@ const NavBar = ({Linkes}) => {
         <nav className=" container mx-auto flex justify-around  items-center  border-red-50 py-4 ">
             <div> 
                 <a href="/" className='flex text-center ' > 
-                <img src="\src\assets\hot-beverages.png" alt="" className='w-[70px] h-[70px]' />
+                <img src={logo} alt="" className='w-[70px] h-[70px]' />
                 <h1 className='text-[#ffffff] flex items-center ml-2 text-[40px]'> Coffe</h1>
             
                 </a>

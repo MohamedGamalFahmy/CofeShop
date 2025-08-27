@@ -16,6 +16,7 @@ import user2 from './user-2.jpg'
 import user3 from './user-3.jpg'
 import user4 from './user-4.jpg'
 import user5 from './user-5.jpg'
+import mohamed from "./Pmohamed.jpg"
  
 export {
   logo,
@@ -36,4 +37,6 @@ export {
   user3,
   user4,
   user5,
+  mohamed
+,
 };
